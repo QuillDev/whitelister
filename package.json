@@ -1,0 +1,19 @@
+{
+  "name": "whitelist_translator",
+  "version": "1.0.0",
+  "description": "translates a list of minecraft usernames to whitelist format",
+  "main": "index.ts",
+  "author": "quilldev",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.2.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "dev": "tsnd --respawn index.ts"
+  },
+  "dependencies": {
+    "got": "^11.8.2"
+  }
+}
