@@ -6,14 +6,16 @@
   "author": "quilldev",
   "license": "MIT",
   "devDependencies": {
-    "ts-node": "^10.2.1",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.4.3"
   },
   "scripts": {
-    "dev": "tsnd --respawn index.ts"
+    "dev": "tsnd --respawn index.ts",
+    "start": "ts-node index.ts"
   },
   "dependencies": {
-    "got": "^11.8.2"
+    "@types/node": "^16.9.1",
+    "got": "^11.8.2",
+    "ts-node": "^10.2.1"
   }
 }
